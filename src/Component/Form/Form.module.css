@@ -1,0 +1,112 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 845px;
+  padding-left: 60px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  color: #1f333c;
+}
+.item {
+  flex-grow: 1;
+  flex-basis: calc(50% - 30px);
+  margin: 10px;
+  padding: 10px;
+  text-align: start;
+}
+.item > p {
+  font-size: 12px;
+  font-weight: 400px;
+  color: #1f333c;
+}
+
+.item > input {
+  all: unset;
+  background-color: #ffff;
+  border-radius: 10px;
+
+  width: 280px;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 59px;
+  font-size: 12px;
+}
+
+.buttonWrapper > button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.radioWrapper {
+  display: flex;
+  gap: 70px;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  font-size: 12px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffff;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 5px;
+}
+
+input[type="radio"]:checked {
+  background-color: #007bff;
+}
+
+.buttonContainer {
+  all: unset;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 95px;
+  margin-bottom: 30px;
+}
+.buttonContainer > button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  width: 112px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.home {
+  background: #937054 !important;
+  color: #fff !important;
+}
+.sell {
+  background: #3d4e42 !important;
+  color: #fff !important;
+}
+.loan {
+  background: #c65708 !important;
+  color: #fff !important;
+}
+.udhaar {
+  background: #1e313a !important;
+  color: #fff !important;
+}

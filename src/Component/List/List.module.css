@@ -1,0 +1,22 @@
+.wrapper {
+  width: 320px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  gap: 20px;
+  background: #fbfbfb;
+}
+
+.wrapper > button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  padding: 14px 70px;
+  background: #f3f3f3;
+  color: #1f333c;
+  font-size: 16px;
+  font-weight: 400;
+}

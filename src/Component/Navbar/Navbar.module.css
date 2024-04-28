@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+
+  display: flex;
+  min-height: 99px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(227, 170, 65, 1) 0%,
+    rgba(231, 198, 149, 1) 32%
+  );
+}
+
+.navItem {
+  width: 100%;
+}

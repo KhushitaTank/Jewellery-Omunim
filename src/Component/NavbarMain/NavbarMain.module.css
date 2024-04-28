@@ -1,0 +1,63 @@
+.Wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.menu {
+  color: #434343;
+  display: flex;
+  height: fit-content;
+  padding-top: 15px;
+  gap: 43px;
+}
+
+.navWrapper {
+  padding-top: 15px;
+  display: flex;
+  gap: 30px;
+  height: fit-content;
+  color: #1f333c;
+  font-size: 12px;
+}
+.searchWrapper {
+  padding-left: 10px;
+  border-radius: 10px;
+  background: #fff;
+  width: 300px;
+  height: 24px;
+  display: flex;
+}
+
+.searchWrapper > input {
+  all: unset;
+  width: calc(100% - 20px);
+}
+.searchWrapper > .img {
+  all: unset;
+  width: 24px;
+  height: 24px;
+  background: #c65708;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.img > img {
+  width: 15px;
+  height: 15px;
+}
+.navWrapper > button {
+  all: unset;
+}
+.navWrapper > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
